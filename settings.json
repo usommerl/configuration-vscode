@@ -22,5 +22,6 @@
   "vscode-neovim.neovimPath": "/usr/bin/nvim",
   "window.zoomLevel": 0,
   "window.menuBarVisibility": "toggle",
-  "workbench.editor.enablePreview": false
+  "workbench.editor.tabCloseButton": "off",
+  "workbench.editor.tabSizing": "shrink"
 }

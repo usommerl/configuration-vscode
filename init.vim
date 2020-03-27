@@ -21,6 +21,8 @@ set undofile
 
 " {{{ Keys
 let mapleader = ","
-nnoremap <silent> <leader>yd       :<C-u>let @+ = expand("%:p:h")<cr>
-nnoremap <silent> <leader>yf       :<C-u>let @+ = expand("%:p") <cr>
+nnoremap <silent> <leader>re  :<C-u>call VSCodeNotify('editor.action.rename')<CR>
+xnoremap <silent> <leader>re  :<C-u>call VSCodeNotify('editor.action.rename')<CR>
+nnoremap <silent> <leader>yd  :<C-u>let @+ = expand("%:p:h")<cr>
+nnoremap <silent> <leader>yf  :<C-u>let @+ = expand("%:p") <cr>
 "}}}

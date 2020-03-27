@@ -19,6 +19,7 @@
     "**/.factorypath": true
   },
   "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "vscode-neovim.neovimInitPath": "$HOME/.config/Code/User/init.vim",

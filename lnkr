@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 
 install() {
-  link "$REPOSITORY_ROOT" "${XDG_CONFIG_HOME:-$HOME/.config}/Code/User"
+  local dir="${XDG_CONFIG_HOME:-$HOME/.config}"
+  link "$REPOSITORY_ROOT" "$dir/Code/User"
+  link "$REPOSITORY_ROOT" "$dir/Code - OSS/User"
 }
 
 source <(curl -Lfs https://git.io/lnkr)

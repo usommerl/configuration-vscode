@@ -1,0 +1,29 @@
+// Place your settings in this file to overwrite the default settings
+{
+  "vim.enableNeovim": true,
+  "vim.useSystemClipboard": true,
+  "vim.disableAnnoyingNeovimMessage": true,
+  "vim.visualstar": false,
+  "vim.hlsearch": false,
+  "vim.smartcase": true,
+  "editor.detectIndentation": false,
+  "editor.rulers": [80],
+  "editor.lineNumbers": "relative",
+  "editor.tabSize": 2,
+  "files.trimTrailingWhitespace": true,
+  "workbench.editor.enablePreview": false,
+  "emmet.useNewEmmet": true,
+  "window.zoomLevel": 0,
+  "window.menuBarVisibility": "toggle",
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 500,
+  "vim.neovimPath": "/usr/bin/nvim",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  }
+}

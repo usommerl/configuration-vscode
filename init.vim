@@ -21,6 +21,9 @@ let mapleader = ","
 nnoremap                   +  <C-a>
 nnoremap                   -  <C-x>
 
+
+nnoremap <silent> <leader>p   :<C-u>call VSCodeNotify('workbench.action.togglePanel')<CR>
+xnoremap <silent> <leader>p   :<C-u>call VSCodeNotify('workbench.action.togglePanel')<CR>
 nnoremap <silent> <leader>b   :<C-u>call VSCodeNotify('workbench.action.toggleActivityBarVisibility')<CR>
 xnoremap <silent> <leader>b   :<C-u>call VSCodeNotify('workbench.action.toggleActivityBarVisibility')<CR>
 nnoremap <silent> <leader>e   :<C-u>call VSCodeNotify('workbench.action.toggleSidebarVisibility')<CR>

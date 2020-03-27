@@ -24,5 +24,6 @@
   "window.zoomLevel": 0,
   "window.menuBarVisibility": "toggle",
   "workbench.editor.tabCloseButton": "off",
-  "workbench.editor.tabSizing": "shrink"
+  "workbench.editor.tabSizing": "shrink",
+  "workbench.startupEditor": "none"
 }

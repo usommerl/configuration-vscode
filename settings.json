@@ -11,13 +11,15 @@
   "editor.tabSize": 2,
   "files.autoSave": "afterDelay",
   "files.autoSaveDelay": 500,
-  "files.trimTrailingWhitespace": true,
+  "files.enableTrash": false,
   "files.exclude": {
     "**/.classpath": true,
     "**/.project": true,
     "**/.settings": true,
     "**/.factorypath": true
   },
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "vscode-neovim.neovimInitPath": "$HOME/.config/Code/User/init.vim",
   "vscode-neovim.neovimPath": "/usr/bin/nvim",

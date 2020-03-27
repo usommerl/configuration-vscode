@@ -1,6 +1,7 @@
-// Place your settings in this file to overwrite the default settings
 {
+  "breadcrumbs.enabled": false,
   "editor.detectIndentation": false,
+  "editor.formatOnSave": true,
   "editor.lineNumbers": "relative",
   "editor.rulers": [80],
   "editor.suggestSelection": "first",
@@ -15,6 +16,7 @@
     "**/.factorypath": true
   },
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "vscode-neovim.neovimInitPath": "$HOME/.config/Code/User/init.vim",
   "vscode-neovim.neovimPath": "/usr/bin/nvim",
   "window.zoomLevel": 0,
   "window.menuBarVisibility": "toggle",

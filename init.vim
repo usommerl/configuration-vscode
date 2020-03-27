@@ -21,6 +21,11 @@ set undofile
 
 " {{{ Keys
 let mapleader = ","
+
+nnoremap                   +  <C-a>
+nnoremap                   -  <C-x>
+nnoremap <silent> <leader>e   :<C-u>call VSCodeNotify('workbench.action.toggleSidebarVisibility')<CR>
+xnoremap <silent> <leader>e   :<C-u>call VSCodeNotify('workbench.action.toggleSidebarVisibility')<CR>
 nnoremap <silent> <leader>ff  :<C-u>call VSCodeNotify('workbench.action.quickOpen')<CR>
 xnoremap <silent> <leader>ff  :<C-u>call VSCodeNotify('workbench.action.quickOpen')<CR>
 nnoremap <silent> <leader>re  :<C-u>call VSCodeNotify('editor.action.rename')<CR>

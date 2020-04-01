@@ -25,6 +25,7 @@
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
+  "sync.gist": "d163ec2dcd8e4a89b1d8c15a0aa9ce62",
   "vscode-neovim.neovimInitPath": "$HOME/.config/Code/User/init.vim",
   "vscode-neovim.neovimPath": "/usr/bin/nvim",
   "window.zoomLevel": 0,

@@ -30,6 +30,7 @@
   "vscode-neovim.neovimPath": "/usr/bin/nvim",
   "window.zoomLevel": 0,
   "window.menuBarVisibility": "toggle",
+  "window.titleBarStyle": "custom",
   "workbench.activityBar.visible": false,
   "workbench.colorTheme": "Nord",
   "workbench.editor.showTabs": false,

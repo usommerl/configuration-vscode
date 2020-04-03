@@ -31,6 +31,7 @@
   "window.zoomLevel": 0,
   "window.menuBarVisibility": "toggle",
   "window.titleBarStyle": "custom",
+  "window.restoreFullscreen": true,
   "workbench.activityBar.visible": false,
   "workbench.colorTheme": "Nord",
   "workbench.editor.showTabs": false,
